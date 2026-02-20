@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Tryn</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Sarabun:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="nav-dots">
+      <div
+        class="nav-dot active"
+        onclick="scrollTo({top:0,behavior:'smooth'})"
+      ></div>
+      <div
+        class="nav-dot"
+        onclick="document.getElementById('things').scrollIntoView({behavior:'smooth'})"
+      ></div>
+      <div
+        class="nav-dot"
+        onclick="document.getElementById('playlist').scrollIntoView({behavior:'smooth'})"
+      ></div>
+      <div
+        class="nav-dot"
+        onclick="document.getElementById('closing').scrollIntoView({behavior:'smooth'})"
+      ></div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero" id="hero">
+      <p class="hero-label">สำหรับ &nbsp;·&nbsp; For</p>
+      <h1 class="hero-name"><em>Tryn</em></h1>
+      <p class="hero-sub">
+        ฉันทำขึ้นมาด้วยความตั้งใจของตัวฉันเอง อยากให้ได้จดจำสิ่งนี้ไว้ในแบบที่ไม่มีใครสามารถทำให้เธอได้<br />Some things don't need a reason.
+      </p>
+      <div class="scroll-hint">
+        <div class="scroll-line"></div>
+        scroll
+      </div>
+    </div>
+
+    <!-- THINGS I KNOW -->
+    <section id="things">
+      <p class="section-label">
+        สิ่งที่รู้เกี่ยวกับเธอ &nbsp;·&nbsp; Things I Know About You
+      </p>
+      <div class="things-grid">
+        <div class="thing-item">
+          <span class="thing-num">01</span>
+          <p class="thing-text">
+            เธอโตกว่าในแบบที่ไม่ต้องพูดให้ใครรู้ ทุกก้าว ทุกคำพูด
+            มันมีแบบแผนอยู่เสมอ — แบบที่ทำให้รู้สึกว่าอยู่ใกล้แล้วมั่นใจขึ้น
+          </p>
+        </div>
+        <div class="thing-item">
+          <span class="thing-num">02</span>
+          <p class="thing-text">
+            เวลาให้คำแนะนำ มันไม่ใช่แค่คำพูดดีๆ
+            แต่รู้สึกได้ว่ามาจากความเข้าใจจริงๆ — พึ่งพาได้ในแบบที่หายากมาก
+          </p>
+        </div>
+        <div class="thing-item">
+          <span class="thing-num">03</span>
+          <p class="thing-text">
+            น่ารัก ขี้อ้อน โรแมนติก — สามอย่างนี้อยู่ในคนเดียวกัน
+            และมันทำให้เธอน่าจดจำมากกว่าที่คิด
+          </p>
+        </div>
+        <div class="thing-item">
+          <span class="thing-num">04</span>
+          <p class="thing-text">
+            มีวันหนึ่งที่ได้ใช้เวลาด้วยกันแบบเต็มๆ วันนั้นทำให้รู้จักเธอมากขึ้น
+            และยิ่งอยากรู้จักมากกว่านั้นอีก
+          </p>
+        </div>
+        <div class="thing-item">
+          <span class="thing-num">05</span>
+          <p class="thing-text">
+            ชอบมองหน้าเวลาเธอพูดหรือเล่าเรื่อง — มีบางอย่างในนั้นที่ดึงดูด
+            บอกไม่ถูกว่าคืออะไร แต่มันทำให้ไม่อยากละสายตา
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- PLAYLIST -->
+    <section id="playlist">
+      <p class="section-label">
+        เพลงที่นึกถึงเธอ &nbsp;·&nbsp; Songs That Remind Me of You
+      </p>
+      <div class="playlist">
+        <div class="song-card">
+          <div class="song-header">
+            <span class="song-title">ฝุ่นหนา</span>
+            <span class="song-artist">—</span>
+          </div>
+          <p class="song-note">
+            ในทุกๆ วันที่เธอออกไปใช้ชีวิต ไปเจอกับเรื่องราวมากมาย —
+            เพลงนี้เตือนให้นึกถึงเสมอ ดูแลตัวเองดีๆ ด้วยนะ
+          </p>
+          <iframe
+            style="border-radius: 8px; margin-top: 1rem"
+            src="https://open.spotify.com/embed/track/1WTQG5psMrmrkoQ3EM5irS?utm_source=generator&theme=0"
+            width="100%"
+            height="80"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+
+        <div class="song-card">
+          <div class="song-header">
+            <span class="song-title">Again</span>
+            <span class="song-artist">Noah Cyrus</span>
+          </div>
+          <p class="song-note">
+            ฟังแล้วให้ความรู้สึกไม่เหมือนทุกครั้งที่ผ่านมา
+            ความหมายของเพลงมันยิ่งชัดเจนขึ้นเรื่อยๆ —
+            บางเพลงมันเปลี่ยนไปตามคนที่นึกถึงตอนฟัง
+          </p>
+          <iframe
+            style="border-radius: 8px; margin-top: 1rem"
+            src="https://open.spotify.com/embed/track/2S2od3hT7ceytw7d1pTRuE?utm_source=generator&theme=0"
+            width="100%"
+            height="80"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+
+        <div class="song-card">
+          <div class="song-header">
+            <span class="song-title">I Wanna Be Yours</span>
+            <span class="song-artist">Arctic Monkeys</span>
+          </div>
+          <p class="song-note">
+            ทุกครั้งที่ฟัง มันก็ทำให้นึกถึงแต่คนที่ส่งเพลงนี้มาให้ —
+            ความรู้สึกมันชัดเจนกว่าเดิมทุกที
+          </p>
+          <iframe
+            style="border-radius: 8px; margin-top: 1rem"
+            src="https://open.spotify.com/embed/track/5XeFesFbtLpXzIVDNQP22n?utm_source=generator&theme=0"
+            width="100%"
+            height="80"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <div class="closing" id="closing">
+      <p class="closing-text">
+        "ความสุขมันอาจสั้น<br />แต่ก็รู้สึกดีทุกครั้งที่ได้เจอกัน<br /><span
+          class="accent-dot"
+          >—</span
+        >
+        อยากรู้จักเธอมากกว่านี้ และเรียนรู้เกี่ยวกับตัวเธอมากกว่านี้อีก"
+      </p>
+      <p class="closing-small">for Trny &nbsp;·&nbsp; with care</p>
+    </div>
+    <script src="Scrip.js"></script>
+  </body>
+</html>
